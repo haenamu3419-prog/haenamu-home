@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>해나무 한의원 - 당신이라는 나무에 따뜻한 해를 비춥니다</title>
+    <style>
+        /* 기본 웹 폰트 및 리셋 */
+        @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+        
+        body, html {
+            margin: 0;
+            padding: 0;
+            background-color: #FDF9F1;
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, sans-serif;
+            color: #4A3F35;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+        }
+
+        .story-image {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 24px;
+            box-shadow: 0 10px 30px rgba(139, 115, 85, 0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .story-image:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(139, 115, 85, 0.25);
+        }
+
+        .booking-link {
+            display: block;
+            text-decoration: none;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .booking-link .story-image {
+            border: 4px solid #4CAF50;
+            box-shadow: 0 15px 35px rgba(76, 175, 80, 0.3);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(76, 175, 80, 0.4); }
+            70% { box-shadow: 0 0 0 15px rgba(76, 175, 80, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(76, 175, 80, 0); }
+        }
+
+        .map-link {
+            display: block;
+            text-decoration: none;
+        }
+
+        .map-link:hover .story-image {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 20px 40px rgba(0, 153, 255, 0.2);
+        }
+
+        .store-link {
+            display: block;
+            text-decoration: none;
+        }
+
+        .store-link:hover .story-image {
+            transform: translateY(-5px) scale(1.02);
+            box-shadow: 0 20px 40px rgba(255, 153, 51, 0.2);
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #F3EBE1;
+            color: #8D7B68;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.6;
+        }
+
+        .footer-info {
+            margin-bottom: 20px;
+        }
+
+        .footer-info p {
+            margin: 5px 0;
+            word-break: keep-all;
+        }
+
+        .footer-info span {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        .copyright {
+            font-size: 13px;
+            opacity: 0.8;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <main class="container">
+        <img src="Haenamu_Clay_Universe_1.jpg" alt="당신이라는 나무에 따뜻한 해를 비춥니다. 해나무한의원에 오신 것을 환영합니다!" class="story-image">
+
+        <img src="Haenamu_Clay_Universe_2.jpg" alt="해나무의 다짐: 해와 나무가 만나는 곳" class="story-image" loading="lazy">
+        <img src="Haenamu_Clay_Universe_3.jpg" alt="마음까지 보는 한의학 박사, 장현호입니다" class="story-image" loading="lazy">
+        <img src="Haenamu_Clay_Universe_4.jpg" alt="어디가 불편하신가요? 알맞은 문을 두드려주세요!" class="story-image" loading="lazy">
+        <img src="Haenamu_Clay_Universe_5.jpg" alt="편한 몸 클리닉: 아픈 곳, 감으로 찾지 않습니다!" class="story-image" loading="lazy">
+        <img src="Haenamu_Clay_Universe_6.jpg" alt="맑은 몸 클리닉: 먹기 편한 슬림정 & 원장님의 밀착 마크!" class="story-image" loading="lazy">
+        <img src="Haenamu_Clay_Universe_7.jpg" alt="맑은 머리 클리닉: 오래된 머릿속 괴로움, 포기하지 마세요" class="story-image" loading="lazy">
+        
+        <a href="https://thesoo.co/@ansanhaenamu" target="_blank" class="store-link" title="해나무 스마트스토어로 이동">
+            <img src="Haenamu_Clay_Universe_8.jpg" alt="기력 보강 클리닉: 내 몸에 필요한 구원투수는?" class="story-image" loading="lazy">
+        </a>
+        
+        <img src="Haenamu_Clay_Universe_9.jpg" alt="진료 시간표: 원장님도 충전이 필요합니다" class="story-image" loading="lazy">
+        
+        <a href="https://naver.me/5BceqzEA" target="_blank" class="map-link" title="네이버 지도에서 길찾기">
+            <img src="Haenamu_Clay_Universe_10.jpg" alt="오시는 길: 버스 정류장 우측으로 쏙 들어오세요!" class="story-image" loading="lazy">
+        </a>
+        
+        <a href="https://m.booking.naver.com/booking/13/bizes/818929?theme=place&service-target=map-pc&lang=ko&area=pll" target="_blank" class="booking-link" title="네이버 예약페이지로 이동">
+            <img src="Haenamu_Clay_Universe_11.jpg" alt="기다림 없이 가장 빠르게 해나무를 만나는 방법 - 네이버 예약" class="story-image" loading="lazy">
+        </a>
+        
+        <img src="Haenamu_Clay_Universe_12.jpg" alt="당신의 일상이 다시 시들지 않도록, 해나무한의원이 언제나 곁에 있겠습니다!" class="story-image" loading="lazy">
+    </main>
+
+    <footer>
+        <div class="footer-info">
+            <p>
+                <span><strong>상호명</strong> : 해나무 한의원</span>
+                <span><strong>대표자</strong> : 장현호</span>
+            </p>
+            <p>
+                <span><strong>사업자등록번호</strong> : 134-91-80514</span>
+                <span><strong>연락처</strong> : 031-485-1073</span>
+            </p>
+            <p><strong>사업장 소재지</strong> : 경기도 안산시 상록구 화랑로 501 304호</p>
+        </div>
+        <p class="copyright">&copy; 2026 해나무 한의원 (Haenamu Oriental Medicine Clinic). All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
